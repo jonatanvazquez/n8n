@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://n8n.io",
   "engines": {
-    "node": "16.11.0",
+    "node": ">=18.10",
     "pnpm": ">=8.7"
   },
   "packageManager": "pnpm@8.7.0",
@@ -33,7 +33,7 @@
     "test:e2e:all": "cross-env E2E_TESTS=true NODE_OPTIONS=--dns-result-order=ipv4first  start-server-and-test start http://localhost:5678/favicon.ico 'cypress run --headless'"
   },
   "dependencies": {
-    "pnpm": "file:*"
+    "n8n": "file:*"
   },
   "devDependencies": {
     "@n8n_io/eslint-config": "file:*",
