@@ -36,7 +36,7 @@
     "n8n": "1.4.0"
   },
   "devDependencies": {
-    "@n8n_io/eslint-config": "^1.0.0",
+    "@n8n_io/eslint-config": "0.0.2",
     "@ngneat/falso": "^6.4.0",
     "@types/jest": "^29.5.3",
     "@types/supertest": "^2.0.12",
